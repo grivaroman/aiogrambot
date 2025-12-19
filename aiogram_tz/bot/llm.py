@@ -4,7 +4,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key=""
 )
 
 SYSTEM_PROMPT = """
@@ -64,3 +64,4 @@ def parse_query(text: str) -> dict:
     except Exception as e:
         print("LLM error:", e)
         return {"sql": None, "params": []}
+
