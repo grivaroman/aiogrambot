@@ -6,7 +6,7 @@ from db import fetch_value
 from llm import parse_query
 
 
-bot = Bot(token="7803028383:AAGwg2xXgVNPpV8i26iGczDLUmHUK9fJ1JU")
+bot = Bot(token="")
 dp = Dispatcher()
 
 
@@ -39,3 +39,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
